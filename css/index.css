@@ -84,10 +84,6 @@ a:hover{
     color: #B01111
 }
 
-section{
-    padding: 4% 0; /* 4% of the body (parent element) */
-}
-
 /*Header Section*/
 header nav{
     display:flex;
@@ -121,7 +117,7 @@ header nav{
 
 /* About Section */
 #about{
-    padding-top: 20%;
+    padding: 10% 0;
     background-color: black;
     color: white;
     display:flex;
@@ -132,6 +128,10 @@ header nav{
 #about div {
     margin: 5%;
 }
+
+.about__what p{
+    margin: 5% 0;
+ }
 
 .about__list {
    display: flex;
@@ -151,7 +151,7 @@ header nav{
 
 /* Contact Section */
 #contact {
-
+    padding: 4% 0;
     margin-bottom: 0;
     display: flex;
     flex-direction: column;
