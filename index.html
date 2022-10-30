@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <title>My First Web Page</title>
+</head>
+<body>
+    <header>
+        <nav class="header__nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section id="home">
+        <div>
+            <h1>Intro to HTML</h1>
+            <p>Welcome to introduction to HTML. You don't need any previous experience in order to learn HTML. This lesson will give you the foundational knowledge to build amazing websites.</p>
+        </div>
+        <img class="home__img" src="https://images.unsplash.com/photo-1549692520-acc6669e2f0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="software programmers">
+    </section>
+    <section id="about">
+        <div>
+            <h2>What is this?</h2>
+            <p>A simple web page put together with HTML / CSS.</p>
+        </div>
+        <div class="about__div">
+            <h2>Why am I doing this?</h3>
+            <div class="about__list">
+                <ul>
+                    <li>To learn HTML</li>
+                    <li>To gain knowledge to pursue a career in software engineering</li>
+                    <li>To show off:</li>
+                        <ol>
+                            <li>To my friends</li>
+                            <li>To my family</li>
+                        </ol>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <p>To contact me for all your development needs. Enter your information below: </p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" name="name">
+            <label for="email">Email:</label>
+            <input type="text" name="email">
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <footer>
+        <div class="footer__div-flex">
+            <h3>Come visit us at HQ:</h3>
+            <address>
+                5 Hanover Square, Floor 8 <br>
+                New York, Ny 10004
+            </address>
+            <a href="tel: +1-646-905-0991">646-905-0991</a> <br>
+            <a href="mailto: hello@fullstackacademy.com">hello@fullstackacademy.com</a>
+        </div>
+    </footer>
+</body>
+</html>

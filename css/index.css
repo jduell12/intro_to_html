@@ -1,0 +1,176 @@
+/* 
+   Meyer Web CSS Reeset
+   http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Using rems - everything is based off of the below font-size set on the html */
+html{
+    font-size: 62.5%; /* this makes 1 rem = 10px */
+}
+
+body{
+    font-size: 1.6rem;
+    line-height: 1.5; /* line-height: never give unit of measurement to; takes font-size and it multiplies it to add space between the lines */
+    color: #4f4f4f;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+h1{
+    font-size: 6rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 2.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: #4f4f4f;
+    transition: 2s;
+}
+
+a:hover{
+    color: #B01111
+}
+
+section{
+    padding: 4% 0; /* 4% of the body (parent element) */
+}
+
+/*Header Section*/
+header nav{
+    display:flex;
+    justify-content: space-around;
+    padding: 2%;
+    position: fixed;
+    width:100%;
+    z-index: 999; /* Puts the element to the forefront and everything else is behind it */
+    background-color: #ebebf2; 
+}
+
+/* Home Section */
+#home{
+    height: 90vh; /*Pushes everything w/o the home id down */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home div {
+    padding: 0 4%;
+}
+
+#home div p {
+    text-align: left;
+}
+
+.home__img {
+    width: 80%;
+    margin-bottom: 7%;
+}
+
+/* About Section */
+#about{
+    padding-top: 20%;
+    background-color: black;
+    color: white;
+    height: 90vh; 
+    display:flex;
+    justify-content: center;
+    margin:0;
+}
+
+#about div {
+    margin: 5%;
+}
+
+.about__list {
+   display: flex;
+   justify-content: end;
+}
+
+.about__div ul {
+    list-style: circle;
+    text-align: left;
+    width: 80%;
+}
+
+.about__div ol {
+    list-style: auto;
+    padding-left: 10%;
+}
+
+/* Contact Section */
+#contact {
+    padding-top: 10%;
+}
+
+/*Footer Section*/
+footer {
+    height: 500px;
+    background-image: url(https://images.unsplash.com/photo-1516893842880-5d8aada7ac05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer__div-flex{
+   padding-top: 5%;
+   padding-left: 10%;
+}
+
+footer a:hover{
+    color:#B01111
+}
+
