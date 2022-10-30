@@ -115,6 +115,10 @@ header nav{
     text-align: left;
 }
 
+.home__img {
+    width: 100%;
+}
+
 /* About Section */
 #about{
     padding-top: 20%;
