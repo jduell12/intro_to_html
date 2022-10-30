@@ -101,10 +101,10 @@ header nav{
 
 /* Home Section */
 #home{
-    height: 90vh; /*Pushes everything w/o the home id down */
+    height: 100vh; /*Pushes everything w/o the home id down */
     display:flex;
-    justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 #home div {
@@ -115,17 +115,11 @@ header nav{
     text-align: left;
 }
 
-.home__img {
-    width: 80%;
-    margin-bottom: 180px;
-}
-
 /* About Section */
 #about{
     padding-top: 20%;
     background-color: black;
     color: white;
-    height: 80vh; 
     display:flex;
     justify-content: center;
     margin:0;
@@ -153,7 +147,7 @@ header nav{
 
 /* Contact Section */
 #contact {
-    height: 20vh; 
+
     margin-bottom: 0;
     display: flex;
     flex-direction: column;
